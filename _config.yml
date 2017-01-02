@@ -1,0 +1,7 @@
+name: A coaching guide for mozillians
+description:
+paginate: 10
+baseurl: '/DopeTrope-Jekyll-Theme'
+
+include: ['_pages']
+categories: [course, resource]
