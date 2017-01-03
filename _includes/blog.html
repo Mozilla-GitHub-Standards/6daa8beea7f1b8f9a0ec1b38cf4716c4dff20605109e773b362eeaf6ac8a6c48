@@ -3,21 +3,19 @@
 
 				<!-- Blog -->
 					<section>
-					<!--	<header class="major">
-							<h2>The Blog</h2>
-						</header> -->
 						<div class="row">
-						{% for post in site.posts %}
+							{% assign ordered_lessons = site.lessons | sort: "display-order" %}
+						{% for lesson in ordered_lessons %}
 							<div class="4u">
 								<section class="box">
-									<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+									<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ lesson.featured }}" alt="" /></a>
 									<header>
-										<h3>{{ post.title }}</h3>
+										<h3>{{ lesson.title }}</h3>
 									</header>
-									<p>{{ post.excerpt }}</p>
+									<p>{{ lesson.excerpt }}</p>
 									<footer>
 										<ul class="actions">
-											<li><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">Continue Reading</a></li>
+											<li><a href="{{ site.baseurl }}{{ lesson.url }}" class="button icon fa-file-text">Continue Reading</a></li>
 										</ul>
 									</footer>
 								</section>
@@ -25,8 +23,26 @@
 						{% endfor %}
 						</div>
 					</section>
-
 			</div>
 		</div>
+<div class="row">
+	<div class="16u">
+		<section>
+			<header>
+				<h2>Other Resources</h2>
+			</header>
+			<ul class="dates">
+			{% for post in site.posts %}
+				{% if post.categories contains 'resources' %}
+				<li>
+					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+					{{ post.excerpt }}
+				</li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</section>
+	</div>
+</div>
 	</div>
 </div>

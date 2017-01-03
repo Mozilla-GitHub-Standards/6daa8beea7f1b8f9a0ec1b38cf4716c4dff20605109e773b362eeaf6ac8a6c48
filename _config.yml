@@ -1,7 +1,8 @@
-name: A coaching guide for mozillians
-description:
-paginate: 10
-baseurl: '/DopeTrope-Jekyll-Theme'
+name: Mozilla Reps - Coaching skills training
+description: This website contains resources needed by Mozilla Reps to became Mentors
+baseurl: ''
 
-include: ['_pages']
+collections:
+ lessons:
+   output: true
 categories: [course, resource]
