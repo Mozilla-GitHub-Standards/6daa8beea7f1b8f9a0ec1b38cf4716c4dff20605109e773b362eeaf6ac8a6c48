@@ -16,8 +16,6 @@ All Reps Mentors needs to give feedback to their mentees. At the same time, givi
 * How to give constructive feedback
 * How to structure a feedback session
 
-## Activity
-
 ## Content - Tips
 
 One of the main function of the Reps Mentor is give feedback to their mentees. Here you have some tips to have good feedback sessions.
@@ -33,7 +31,8 @@ It's better if you try to make these sessions regularly, it's better for the fee
 #### Prepare it before and be specific
 
 Before the session, take the time to think abut what you want to say, which differents ways you could have to say it. **Don't go** to your session without preparing what you want to do. Receiving feedback is difficult, and sometimes problematic, so you want to make it easier for your mentee. **Be specific** on what you are trying to say, is better if you have examples and situations to show when what you are saying happened. This will make easier for your mentee to understand what you are trying to show. Avoid to give *statements* without an example. Describe what happened and try not to add a judgement.
-> For example: "You demonstrate a high degree of confidence when you answer customer questions about registration procedures, "rather than, "Your communication skills are good."
+
+> For example: "You demonstrate a high degree of confidence when you answer customer questions about registration procedures", rather than, "Your communication skills are good."
 
 #### Limit your focus
 
@@ -59,5 +58,6 @@ This is an example on how to structure a feedback session:
 * **Summarize and express your support**. Review the major points you discussed. Summarize the Action items, not the negative points of the other person's behavior. If you have given neutral feedback, emphasize the main points you have wanted to convey.
 
 ## Other resources
+* [Giving and Receiving Feedback](https://leadership.mozilla.community/method/giving-and-receiving-feedback/)
 * [Giving feedback](https://www.mindtools.com/pages/article/newTMM_98.htm)
 * [Giving constructive feedback](https://www.cabrillo.edu/services/jobs/pdfs/giving-feedback.pdf)

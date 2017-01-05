@@ -68,6 +68,11 @@
 		border-left: solid 0.75em #dddddd;
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
+		margin-bottom: 2em;
+	}
+
+	blockquote p {
+		margin-bottom: 0em;
 	}
 
 	h1, h2, h3, h4, h5, h6
@@ -851,3 +856,13 @@
 			border-radius: 5px;
 			margin: 0;
 		}
+
+.container ul {
+	padding-left: 10px;
+	list-style: disc inside;
+}
+
+.container ul.resources li {
+	list-style: none;
+	margin: 20px;
+}

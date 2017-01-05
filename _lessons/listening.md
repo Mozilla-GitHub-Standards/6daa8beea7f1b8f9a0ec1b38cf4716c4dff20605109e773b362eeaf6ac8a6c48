@@ -63,6 +63,7 @@ This is the main level for a Coach. You will be better with practice, conversati
 
 
 ## Other resources:
+* [Deep Listening](https://leadership.mozilla.community/method/deep-listening/)
 * [Build mentor relationship](http://ctb.ku.edu/en/table-of-contents/implement/youth-mentoring/build-mentor-relationships/main)
 * [Active listening](https://www.mindtools.com/CommSkll/ActiveListening.htm)
 * [Coaching skills - Listening](http://www.coactive.com/learning-hub/fundamentals/res/FUN-Topics/FUN-Co-Active-Coaching-Skills-Listening.pdf)
